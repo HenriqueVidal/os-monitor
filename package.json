@@ -1,0 +1,18 @@
+{
+  "name": "os-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./build/index.js"
+  },
+  "author": "Henrique Vidal",
+  "license": "ISC",
+  "dependencies": {
+    "systeminformation": "^5.12.13"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
